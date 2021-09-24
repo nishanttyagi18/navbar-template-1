@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/9fc437fd2d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bookmark Landing Page</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="fixed bg-gray-200 w-full">
+        <div class="container mx-auto">
+          <div
+            class="
+              flex
+              justify-between
+              sm:flex-row
+              flex-col
+              items-center
+              flex-wrap
+              py-5
+              lg:mt-3
+            "
+          >
+            <div
+              class="
+                sm:mx-auto
+                lg:m-0 lg:w-auto
+                w-11/12
+                flex flex-row
+                justify-between
+                items-center
+                text-blue-600
+                lg:gap-2
+                text-3xl
+              "
+            >
+              <i class="fas fa-bookmark"></i>
+              <p class="text-2xl font-bold text-blue-900">BOOKMARKER</p>
+              <button id="btn" class="lg:hidden">
+                <i class="fas fa-bars text-gray-900"></i>
+              </button>
+            </div>
+            <div
+              id="nav-list"
+              class="
+                flex flex-col flex-wrap
+                justify-center
+                lg:flex-row lg:w-auto
+                sm:w-full
+                lg:mt-0
+                mt-4
+                sm:gap-10
+                gap-4
+                items-center
+              "
+            >
+              <p class="font-bold hover:text-gray-500">FEATURES</p>
+              <p class="font-bold hover:text-gray-500">PRICING</p>
+              <p class="font-bold hover:text-gray-500">CONTACT</p>
+              <button
+                class="
+                  bg-red-400
+                  px-6
+                  py-1
+                  rounded-md
+                  text-white
+                  font-bold
+                  active:bg-red-700
+                "
+              >
+                LOGIN
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
